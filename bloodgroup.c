@@ -16,7 +16,7 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 )
-        printf("Blood group %s is incorrect! Please try again.\n", G);
+        printf("Cat group %s is incorrect! Please try again.\n", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
@@ -33,7 +33,7 @@ void main()
     }
     else if (strcmp(G, "AB") == 0)
     {
-      printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
+      printf("%s, AB. Oh my Goddess, you can give blood only to: AB.\n", Name);
       printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
     }
     else
